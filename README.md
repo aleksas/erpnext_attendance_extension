@@ -19,6 +19,7 @@ This will create two DocTypes: `Attendance Settings` and `Attendance Detail` in 
 _Also see [App Tutorials](https://frappe.io/docs/user/en/tutorial)._
 
 #### External attendance api
+
 In `/path/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stab functions. These stub functions should be modified in order to access data from external attendace api.
 
 If you run 
@@ -30,6 +31,10 @@ bench execute attendance_extension.attendance_extension.doctype.attendance_setti
 
 it should generate some stub attendance records (haven't checked stub test myself).
 
-#### License
+##### IMPORTANT
+
+If you are not going to use scheduled attendance updates (from external attendance info source) you have to comment regular task calls in [hooks.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/hooks.py#L97-L109).
+
+### License
 
 MIT
