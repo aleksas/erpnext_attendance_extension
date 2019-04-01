@@ -15,12 +15,12 @@ def get_user_map(external_api_root_url):
 
 def get_events(external_api_root_url, username, dt):
     stub_events = [
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()},
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()},
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()},
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()},
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()},
-        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now()}
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'},
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'},
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'},
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'},
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'},
+        {'username': username, 'year': dt.year, 'month': dt.month, 'day': dt.day, 'year': dt.year, 'datetime':datetime.now(), 'status': 'Valid'}
     ]
     
     return stub_events
