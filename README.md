@@ -21,6 +21,14 @@ _Also see [App Tutorials](https://frappe.io/docs/user/en/tutorial)._
 #### External attendance api
 In `/path/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stab functions. These stub functions should be modified in order to access data from external attendace api.
 
+If you run 
+
+```sh
+cd /path/to/frappe-bench
+bench execute attendance_extension.attendance_extension.doctype.attendance_settings.tasks.test
+```
+
+it should generate some stub attendance records (haven't checked stub test myself).
 
 #### License
 
