@@ -1,4 +1,4 @@
-## Attendance Extension (only for frappe/erpnext v11 (master)
+## Attendance Extension (only for frappe/erpnext v11 master)
 
 ERPNext Attendance DocType Extension
 
