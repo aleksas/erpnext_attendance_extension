@@ -33,7 +33,7 @@ it should generate some stub attendance records (haven't checked stub test mysel
 
 ##### IMPORTANT
 
-If you are not going to use scheduled attendance updates (from external attendance info source) you have to comment regular task calls in [hooks.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/hooks.py#L97-L109).
+If you are not going to use scheduled attendance updates (from external attendance info source) you have to comment regular task calls in [hooks.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/hooks.py#L97-L109). You can find this file in `/path/to/frappe-bench/apps/attendance_extension/attendance_extension` directory.
 
 ### License
 
