@@ -2,6 +2,8 @@
 
 ERPNext Attendance DocType Extension
 
+**ONLY FOR FRAPPE/ERPNEXT v11 (master branch)**
+
 ### Install
 Install attendance_extension app using commandline `bench`
 
