@@ -3,9 +3,10 @@
 ERPNext Attendance DocType Extension
 
 ### Install
-Install attendance_extension app using `bench`
+Install attendance_extension app using commandline `bench`
 
 ```sh
+cd /path/to/frappe-bench
 bench get-app https://github.com/aleksas/erpnext_attendance_extension.git
 bench install attendance_extension
 bench migrate
@@ -18,7 +19,7 @@ This will create two DocTypes: `Attendance Settings` and `Attendance Detail` in 
 _Also see [App Tutorials](https://frappe.io/docs/user/en/tutorial)._
 
 #### External attendance api
-In `/apth/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stab functions. These stub functions should be modified in order to access data from external attendace api.
+In `/path/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stab functions. These stub functions should be modified in order to access data from external attendace api.
 
 
 #### License
