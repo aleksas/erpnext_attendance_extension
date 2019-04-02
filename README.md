@@ -20,14 +20,14 @@ _Also see [App Tutorials](https://frappe.io/docs/user/en/tutorial)._
 
 #### Custom scripts
 
-Main custom scripting is oncentrated in three files:
+Main custom scripting is concentrated in three files:
 * [external_api.py]( https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) see _[external attendance api](#external-attendance-api)_
 * [tools.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/tools.py)
 * [tasks.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/tasks.py)
 
 #### External attendance api
 
-In `/path/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stab functions. These stub functions should be modified in order to access data from external attendace api.
+In `/path/to/frappe-bench/apps/attendance_extension/attendance_extension/attendance_extension/doctype/attendance_settings` directory you'll find [external_api.py](https://github.com/aleksas/erpnext_attendance_extension/blob/master/attendance_extension/attendance_extension/doctype/attendance_settings/external_api.py) Python script containing stub functions. These stub functions should be modified in order to access data from external attendace api.
 
 If you run 
 
