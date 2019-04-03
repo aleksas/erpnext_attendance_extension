@@ -22,4 +22,4 @@ def weekly():
 
 def monthly():
     start_date =  datetime.now() - timedelta(weeks=52)
-    update_attendance_from_external_api(start_date, queue='background')
+    update_attendance_from_external_api(start_date, queue='long')
