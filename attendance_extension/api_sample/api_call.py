@@ -8,8 +8,8 @@ Command: bench execute frappe.core.doctype.user.user --args ['user_name']
 Web: User -> Api Access -> Generate Keys
 """
 
-api_key = "b9839c05db3ecb1"
-api_secret = "85525c485f76e19"
+api_key = "API_KEY"
+api_secret = "API_SECRET"
 
 headers = {
     'Authorization': "token %s:%s" % (api_key, api_secret)
